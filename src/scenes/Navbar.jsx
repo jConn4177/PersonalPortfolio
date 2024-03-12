@@ -59,8 +59,21 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
             className="rounded-full bg-red p-2"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <image alt="menu-icon" src="../assets/menu-icon.svg" />
+            <img alt="menu-icon" src="../public/assets/menu-icon.svg" />
           </button>
+        )}
+        {/* MOBILE MENU POPUP */}
+        {!isAboveSmallScreens && isMenuToggled && (
+          <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+            {/* CLOSE ICON */}
+            <div className="flex justify-end p-12">
+              <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                <img alt="close-icon" src="../public/assets/close-icon.svg" />
+              </button>
+            </div>
+            {/* MENU ITEMS */}
+            <div className="flex flex-col"></div>
+          </div>
         )}
       </div>
     </nav>
