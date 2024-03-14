@@ -25,8 +25,8 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
             Proficient with Python, Flask, JavaScript, React, PostgreSQL,
-            SQLite, SQLAlchemy, Bootstrap, and with expertise gained through
-            formal education and self-paced learning.
+            SQLite, SQLAlchemy, Bootstrap, Tailwind, and with expertise gained
+            through formal education and self-paced learning.
           </p>
         </motion.div>
 
@@ -73,17 +73,12 @@ const MySkills = () => {
           </div>
           <>
             <p className="mt-5">
-              <strong>H.E.B., Austin, TX</strong>
               <br />
               • Managed inventory, optimized stocking levels, and reduced waste,
               resulting in a 15% increase in departmental profitability.
               <br />• Hired, trained, and supervised a team of 7 staff members,
               setting performance expectations and conducting regular
               evaluations. Achieved a 12% increase in customer service scores.
-            </p>
-
-            <p>
-              <strong>Poke-Poke, Austin, TX</strong>
               <br />• Led a team of 8 employees, overseeing hiring, training,
               and performance evaluations. Provided coaching and feedback to
               enhance staff productivity and customer service quality.
